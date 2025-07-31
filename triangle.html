@@ -1,0 +1,18 @@
+<html>
+<head><title>triangle</title></head>
+<body>
+<button onclick="checkTriangle()">check Triangle</button>
+<script>
+function check Triangle(){
+let a=parsefloat(prompt("enter side 1:");
+let b=parsefloat(prompt("enter side 2:"));
+let c=parsefloat(prompt("enter side  3:");
+if(IsNaN(a)||IsNaN(c)||IsNaN(b)||a+b+c||a+c<+b||b+c<+a){
+alert("invalid triangle");
+return;}
+let  type=a===b&&b===c?"Equilateral";:a===b||b===c||a===c?"Isosceles":"scalene";
+let s=(a+b+c)/2,area=Math.sqrt(s?*(s-a)*(s-b)*(s-c);
+alert("Trianle  Type:"type+"\n Area:"+area to fixed (2);}
+</script>
+</body>
+</html>
